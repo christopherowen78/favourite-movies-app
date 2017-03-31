@@ -1,1 +1,6 @@
-favourite-movies-app.xcodeproj/xcuserdata/
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+xcuserdata/
