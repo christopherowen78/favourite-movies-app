@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4114D0031EAE9A45003BA377 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4114D0021EAE9A45003BA377 /* SearchViewController.swift */; };
 		41E20F9B1E80459800255EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E20F9A1E80459800255EC3 /* AppDelegate.swift */; };
 		41E20F9D1E80459800255EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E20F9C1E80459800255EC3 /* ViewController.swift */; };
 		41E20FA01E80459800255EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E20F9E1E80459800255EC3 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4114D0021EAE9A45003BA377 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		41E20F971E80459800255EC3 /* favourite-movies-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "favourite-movies-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E20F9A1E80459800255EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41E20F9C1E80459800255EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				41E20FA61E80459800255EC3 /* Info.plist */,
 				41E20FAC1E8049FB00255EC3 /* CustomTableViewCell.swift */,
 				41E20FAE1E804B9700255EC3 /* Movie.swift */,
+				4114D0021EAE9A45003BA377 /* SearchViewController.swift */,
 			);
 			path = "favourite-movies-app";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4114D0031EAE9A45003BA377 /* SearchViewController.swift in Sources */,
 				41E20FAD1E8049FB00255EC3 /* CustomTableViewCell.swift in Sources */,
 				41E20F9D1E80459800255EC3 /* ViewController.swift in Sources */,
 				41E20FAF1E804B9700255EC3 /* Movie.swift in Sources */,
@@ -308,6 +312,7 @@
 				41E20FAB1E80459800255EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
