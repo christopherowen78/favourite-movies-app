@@ -70,7 +70,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find Movies"/>
                                 <connections>
-                                    <segue destination="ejQ-Sa-UF8" kind="show" id="Ny3-vR-j7X"/>
+                                    <segue destination="ejQ-Sa-UF8" kind="show" identifier="searchMoviesSegue" id="Ny3-vR-j7X"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -146,6 +146,9 @@
                                                     <rect key="frame" x="288" y="57" width="46" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Fav"/>
+                                                    <connections>
+                                                        <action selector="addFavWithSender:" destination="ejQ-Sa-UF8" eventType="touchDown" id="9Gd-6Y-ieq"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
