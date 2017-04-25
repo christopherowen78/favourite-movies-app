@@ -29,10 +29,10 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func parseDataIntoMovies(data: Data?) -> Void {
-        if let data = data{
+        if let data = data {
             let object = JSONParser.parse(data: data)
             if let object = object {
-                self.searchResults = MovieDataProcessor.mapJsonToMovies(object: object, moviesKey: "String")
+                self.searchResults = MovieDataProcessor.mapJsonToMovies(object: object, moviesKey: "Search")
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
